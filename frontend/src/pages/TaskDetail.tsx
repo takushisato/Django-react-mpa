@@ -35,8 +35,9 @@ export const TaskDetail = () => {
           <h1>Task</h1>
           <p>ID: {task.id}</p>
           <p>Updated At: {new Date(task.updated_at).toLocaleString()}</p>
-          <p>Content:</p>
+          <br />
           <div>{task.content}</div>
+          <br />
         </>
       )}
 
