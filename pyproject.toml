@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "django-react-mpa"
+version = "0.1.0"
+description = ""
+authors = ["taku820801 <takuchanpower@gmail.com>"]
+readme = "README.md"
+packages = [{include = "django_react_mpa"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
