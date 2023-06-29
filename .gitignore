@@ -170,11 +170,11 @@ ENV/
 env.bak/
 venv.bak/
 
-# Spyder project settings
+# Spyder project server
 .spyderproject
 .spyproject
 
-# Rope project settings
+# Rope project server
 .ropeproject
 
 # mkdocs documentation
@@ -281,7 +281,7 @@ fabric.properties
 .idea/caches/build_file_checksums.ser
 
 ### PyCharm+all Patch ###
-# Ignore everything but code style settings and run configurations
+# Ignore everything but code style server and run configurations
 # that are supposed to be shared within teams.
 
 .idea/*
