@@ -43,6 +43,9 @@ python manage.py makemigrations
 python manage.py migrate
 
 # poetryからrequirements.txtを出力したい時
+poetry export --format requirements.txt --output requirements.txt
+
+# requirements.txtから環境をインストール
 pip install -r requirements.txt
 
 # pipの一覧表示
