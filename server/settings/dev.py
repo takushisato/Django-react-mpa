@@ -12,10 +12,10 @@ DATABASES = {
 }
 
 # for django-cors-headers
-CORS_ALLOWED_ORIGINS = (
-    'http://localhost:5173',
-    'http://127.0.0.1:5173',
-)
+# CORS_ALLOWED_ORIGINS = (
+#     'http://localhost:5173',
+#     'http://127.0.0.1:5173',
+# )
 
 # templateで if debug を使えるようにするため、設定が必要
 INTERNAL_IPS = (
