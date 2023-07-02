@@ -10,8 +10,6 @@ Django<br>
 ・Django 4.2.2<br>
 ・Python 3.10.8<br>
 ・django-vite 2.1.3<br>
-・djangorestframework 3.14.0<br>
-・django-cors-headers 4.1.0<br>
 React<br>
 ・React 18.2.0<br>
 ・React Router 6.4.4<br>
